@@ -1,0 +1,96 @@
+<html lang="en">
+
+<head>
+	<meta charset="utf-8">
+	<title>Измерение тензодатчика.</title>
+
+	<link rel="stylesheet" href="css/jquery-ui.css">
+	<link rel="stylesheet" href="css/w3.css">
+	<link rel="stylesheet" href="css/jquery.dataTables.min.css">
+	<link rel="stylesheet" href="css/index.css">
+	<link rel="stylesheet" href="css/meterage.css">
+	<script type="text/javascript" src="js/jquery.js"></script>
+	<script type="text/javascript" src="js/jquery-ui.js"></script>
+		<script type="text/javascript" src="js/dygraph.js" ></script>
+	<script type="text/javascript" src="js/jquery.dataTables.min.js"></script>
+	<script type="text/javascript" src="js/meterage.js"></script>
+
+
+</head>
+
+<body>
+	<div id="wrapper">
+		<div id="header">Измерение тензодатчика.</div>
+		<div id="test">
+			<fieldset id="fs_test">
+				<LEGEND>Физические параметры:</LEGEND>
+				<button id="b_ph_test" onclick="calc()" class="w3-button w3-red">Старт измерения.</button>
+
+				<img id="Shema" width="370" height="300" src="images/Shema.jpg" />
+				<table id="table_test" border="1" class="display" cellspacing="0" width="100%">
+					<thead>
+						<tr>
+							<th>Параметр</th>
+							<th>Результат</th>
+						</tr>
+						<tr>
+							<td>U+ - U-</td>
+							<td id="i1">--</td>
+						</tr>
+						<tr>
+							<td>U+ - Sig+</td>
+							<td id="i2">--</td>
+						</tr>
+						<tr>
+							<td>U+ - Sig-</td>
+							<td id="i3">--</td>
+						</tr>
+						
+						<tr>
+							<td>U- - Sig+</td>
+							<td id="i4">--</td>
+						</tr>
+						<tr>
+							<td>U- - Sig-</td>
+							<td id="i5">--</td>
+						</tr>
+						<tr>
+							<td>Sig+ - Sig+</td>
+							<td id="i6">--</td>
+						</tr>
+						<tr>
+							<td>см. 0</td>
+							<td id="i7">--</td>
+						</tr>
+						<tr>
+							<td>на GND</td>
+							<td id="i8">--</td>
+						</tr>
+						
+					</thead>
+
+				</table>
+<div id="status"> Статус : нет данных</div>
+
+				<button id="b_ph_save" onclick="location.href=''" class="w3-button w3-red">Сохранить измерения.</button>
+			</fieldset>
+
+		</div>
+		<div id="din_test">
+			<fieldset id="fs_dn_test">
+				<LEGEND>Динамические параметры:</LEGEND>
+				<button id="b_dn_test" onclick="calc_dn()" class="w3-button w3-red">Старт измерения.</button>
+
+				<div id="gr_meterage"> </div>
+
+<div id="status_dn"> Статус : нет данных</div>
+
+				
+			</fieldset>
+		</div>
+
+		<div id="footer"> Версия 0.0.1 Pre alfa SRC - <a href="https://github.com/Viktorych/tblc">GitHub</a> &copy; Rudenko O.V.</div>
+	</div>
+</body>
+
+</html>

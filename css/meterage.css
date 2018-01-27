@@ -1,0 +1,108 @@
+#test {
+	position: absolute;
+	top: 25px;
+	left: 5px;
+	bottom: 25px;
+	right: 800px;
+	background: #eef3f5;
+	border: 1px solid #141931;
+	border-radius: 5px;
+
+}
+
+#din_test {
+	position: absolute;
+	top: 25px;
+	left: 400px;
+	bottom: 25px;
+	right: 5px;
+	background: #e8f1f7;
+	border: 1px solid #141931;
+	border-radius: 5px;
+
+
+}
+#Shema{
+	position: absolute;
+	top: 70px;
+	left: 10px;
+	bottom: 25px;
+	right: 810px;
+	background: #eef3f5;
+	border: 1px solid #141931;
+	border-radius: 5px;
+}
+#b_ph_test{
+	
+}
+#b_ph_save{
+	position: absolute;
+	//top: 460px;
+	left: 10px;
+	bottom: 25px;
+	right: 810px;
+	background: #eef3f5;
+	border: 1px solid #141931;
+	border-radius: 5px;
+}
+#b_dn_test{
+	
+}
+
+#fs_test{
+	
+	height: 745px;
+}
+#fs_dn_test{
+	
+	height: 745px;
+}
+#table_test{
+	position: absolute;
+	top: 400px;
+	left: 10px;
+	bottom: 25px;
+	width: 370px;
+}
+
+#status{
+	position: absolute;
+	top: 630px;
+	left: 10px;
+	height: 30px;
+	width: 370px;
+	background: #e2d31e;
+	border: 1px solid #141931;
+	border-radius: 5px;
+	text-align: center;
+}
+#status_dn{
+	position: absolute;
+	top: 700px;
+	left: 200px;
+	height: 30px;
+	width: 370px;
+	background: #e2d31e;
+	border: 1px solid #141931;
+	border-radius: 5px;
+	text-align: center;
+}
+#gr_meterage{
+	
+	position: absolute;
+	top: 70px;
+	left: 10px;
+	height: 600px;
+	width: 770px;
+	background: #ffffff;
+	border: 1px solid #141931;
+	border-radius: 5px;
+	text-align: center;
+}
+
+.dygraph-legend {
+   
+  left: 300px !important;
+
+
+}
